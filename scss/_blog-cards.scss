@@ -1,0 +1,53 @@
+// Custom Grid
+
+.blog-card {
+  overflow: hidden;
+  background: $white;
+  box-shadow: $shadow;
+  border-radius: $curved;
+  margin: 30px 15px;
+  @include transition(all 0.4s ease-in-out);
+  &:hover {
+    .blog-card-image {
+      @include transform(scale(1.05));
+      @include transition(all 0.4s ease-in-out);
+    }
+  }
+  .blog-card-image {
+    @include transform(scale(1.0));
+    @include transition(all 0.4s ease-in-out);
+  }
+  .blog-card-content {
+    overflow: hidden;
+    position: relative;
+    padding: 40px;
+    background: $white;
+    border-radius: 0 0 $curved $curved;
+    .blog-card-category {
+      color: $primary;
+      font-weight: $bold;
+      margin: 0 0 10px 0;
+      font-size: 1.1rem;
+    }
+    .blog-card-title {
+      color: $heading-color;
+      font-weight: $bold;
+      margin: 1rem 0;
+    }
+    .blog-card-author {
+      margin-top: 20px;
+      color: $body-color;
+      img {
+        width: 50px;
+        display: inline;
+        position: relative;
+      }
+      span {
+        display: inline;
+        position: relative;
+        padding-left: 10px;
+        color: $heading-color;
+      }
+    }
+  }
+}

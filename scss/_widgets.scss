@@ -1,0 +1,107 @@
+// Widgets
+
+/* Blog Widgets */
+
+.widget-search input.form-control {
+  border: 1px solid $body-color;
+  border-radius: $curved;
+  width: 100%;
+  padding: 10px 45px 10px 15px;
+  outline: 0;
+  min-height: 48px;
+  color: $body-color;
+	position:relative;
+}
+
+.widget-search input.form-control::-webkit-input-placeholder {
+  color: $body-color;
+}
+
+.widget-search::after {
+    content: "\f002";
+    font-family: "Font Awesome 5 Free";
+    font-weight: $extra-bold;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    border-left: 1px solid $body-color;
+    padding-left: 15px;
+    color: $body-color;
+}
+
+.widget {
+	margin-bottom:65px;
+  position: relative;
+}
+
+.widget-title {
+	color: $heading-color;
+	margin-bottom: 30px;
+}
+
+.widget ul {
+  margin-left: 0;
+  padding-left: 0px;
+  list-style: none;
+  li {
+    border-bottom: 1px solid $grey;
+    line-height: 50px;
+    background: none;
+    margin-bottom: 0;
+    a {
+      color: $body-color;
+    }
+    &:before {
+      content: "\f105";
+      font-family: "Font Awesome 5 Free";
+      font-weight: 900;
+      color: $body-color;
+      font-size: 0.8rem;
+      margin-right: 10px;
+      @include transition(all 0.4s ease-in-out);
+    }
+    &:last-child {
+      border-bottom: 0;
+    }
+    &:hover {
+      a, &:before {
+        color: $primary;
+      }
+    }
+  }
+}
+
+.tags {
+  position: relative;
+  display:block;
+}
+
+.tags a {
+	padding: 5px 20px;
+	float: left;
+	display: block;
+  font-size: 0.9rem;
+	border: 1px solid $primary;
+	background: $primary;
+	margin: 3px;
+	color: $white;
+  border-radius: $btn-curved;
+  box-shadow: $shadow;
+	@include transition(all 0.4s ease-in-out);
+  &:before {
+    content: "\f02b";
+    margin-right: 5px;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 0.6rem;
+  }
+  &:hover {
+    box-shadow: $shadow-hover;
+    @include transition(all 0.4s ease-in-out);
+    color: $white;
+  }
+}
+
+.widget-adv img {
+  border-radius: $curved;
+}

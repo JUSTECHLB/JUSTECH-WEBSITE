@@ -1,0 +1,114 @@
+// Typography
+
+/* Custom classes */
+
+h5.sup-title {
+  text-transform: uppercase;
+  color: $primary;
+  font-size: 1.1rem;
+  font-weight: $extra-bold;
+  margin-bottom: -10px;
+}
+
+span.primary {
+  color: $primary;
+}
+
+span.secondary {
+  color: $secondary;
+}
+
+.text-white {
+  color: $white;
+  h1, h2, h3, h4, h5, h6 {
+    color: $white;
+  }
+}
+
+.text-primary {
+  color: $primary;
+  h1, h2, h3, h4, h5, h6 {
+    color: $primary;
+  }
+}
+
+.text-hidden {
+	display:none;
+}
+
+/* Default Typography */
+
+p {
+  margin: 20px 0;
+}
+
+b, strong {
+  font-weight: $bold;
+}
+
+a {
+  color: $primary;
+  text-decoration: none;
+  @include transition(all 0.4s ease-in-out);
+  &:hover {
+    color: $primary ;
+    text-decoration: none;
+  }
+}
+
+hr {
+	border-top:1px solid $grey;
+}
+
+/* Blockquote */
+
+blockquote.blockquote {
+  background: $gradient;
+  display: block;
+  padding: 45px 40px;
+  font-style: italic;
+	font-size: $body-size * 1.2;
+	margin-bottom: $body-size;
+	color: $white;
+	display: block;
+  border-radius: $curved;
+  .blockquote-footer {
+    color: $grey;
+    margin-top: $body-size;
+  }
+}
+
+/* Headings */
+
+h1, h2, h3, h4, h5, h6 {
+  color: $heading-color;
+  font-family: $heading-family;
+  font-weight: $extra-bold;
+  letter-spacing: $heading-letter-spacing;
+  line-height: $heading-line-height;
+  margin: ( 1.875 * $body-size ) 0;
+}
+
+h1 {
+  font-size: 3.8 * $body-size;
+}
+
+h2 {
+  font-size: 3.5 * $body-size;
+}
+
+h3 {
+  font-size: 3 * $body-size;
+}
+
+h4 {
+  font-size: 2 * $body-size;
+}
+
+h5 {
+  font-size: 1.5 * $body-size;
+}
+
+h6 {
+  font-size: 1.2 * $body-size;
+}

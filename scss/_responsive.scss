@@ -1,0 +1,189 @@
+// Responsive
+
+@media (max-width: 1199px) {
+
+  .hero-style-2 {
+    background: $gradient;
+  }
+
+  .works-grid--3cols,
+  .works-grid--4cols {
+  	.work-item {
+  		width: calc(50% - 15px);
+  	}
+  }
+
+  .blog-grid--3cols,
+  .blog-grid--4cols {
+  	.post {
+  		width: calc(50% - 15px);
+  	}
+  }
+
+}
+
+@media (max-width: 1199px) and (min-width: 992px) {
+
+  .counter {
+    .timer {
+      font-size: 1.8rem;
+    }
+    h6.timer-title {
+      font-size: 0.8rem
+    }
+  }
+
+ 
+
+}
+
+@media (max-width: 992px) {
+
+  nav.navbar-light ul.navbar-nav li a.nav-link {
+    padding: 0.5rem 0rem;
+  }
+
+  nav.navbar-light ul.navbar-nav li.dropdown .dropdown-menu {
+    top: auto;
+    margin: 0;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+  }
+
+  nav.navbar-light ul.navbar-nav li.dropdown .megamenu h6,
+  .dropdown-item {
+    padding: 0.25rem 0;
+  }
+
+  nav.navbar-light ul.navbar-nav li.dropdown .container {
+    padding: 0;
+    margin: 0;
+  }
+
+  nav.navbar-light ul.navbar-nav li.dropdown .megamenu {
+    padding: 0.5rem 0;
+  }
+
+  .navbar-collapse.collapse.show {
+    max-height: 280px;
+    overflow-y: auto;
+  }
+
+  .nav-style-6 {
+    background: $white;
+  }
+
+  #hero.hero-seo h3 {
+    font-size: 2.5 * $body-size !important;
+  }
+
+
+}
+
+@media (max-width: 768px) {
+
+  .mb-200 {
+    margin-bottom: 100px !important;
+  }
+
+  .video-presentation .video-btn {
+    position: absolute;
+    top: calc(50% - 120px);
+    left: calc(50% - 40px);
+  }
+
+  .back-to-top {
+    right: 15px;
+  	box-shadow: $shadow;
+    &.show {
+      bottom: 25px;
+    }
+  }
+
+  .nav-toggler {
+  	top: 25px;
+  	right: 15px;
+  }
+
+  .works-grid--2cols,
+  .works-grid--3cols,
+  .works-grid--4cols {
+  	.work-item {
+  		width: 100%;
+  	}
+  }
+
+  .blog-grid--2cols,
+  .blog-grid--3cols,
+  .blog-grid--4cols {
+  	.post {
+  		width: 100%;
+  	}
+  }
+
+}
+
+@media (max-width: 576px) {
+
+  .mb-200 {
+    margin-bottom: 40px !important;
+  }
+
+  h1 {
+    font-size: 2.8 * $body-size;
+  }
+
+  h2 {
+    font-size: 2.5 * $body-size;
+  }
+
+  h3 {
+    font-size: 2 * $body-size;
+  }
+
+  h4 {
+    font-size: 1.75 * $body-size;
+  }
+
+  h5 {
+    font-size: 1.5 * $body-size;
+  }
+
+  h6 {
+    font-size: 1.2 * $body-size;
+  }
+
+  .video-presentation .video-btn {
+    position: absolute;
+    top: calc(50% - 160px);
+    left: calc(50% - 40px);
+  }
+
+}
+
+@media (max-width: 476px) {
+
+  .mb-200 {
+    margin-bottom: 0px !important;
+  }
+
+  .video-presentation .video-btn {
+    position: absolute;
+    top: calc(50% - 180px);
+    left: calc(50% - 40px);
+  }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+  .planets {
+    display:none;
+  }
+}
+
+@media only screen and (min-width: 1030px) and (max-width: 1366px){
+  .planets {
+    display:none;
+  }
+}

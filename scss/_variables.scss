@@ -1,0 +1,69 @@
+// Variables
+
+// Colors
+$primary: #d500f9;
+$secondary: #4b8ee1;
+$gradient: linear-gradient(75deg, $primary 0%, $secondary 100%);
+$white: #ffffff;
+$black: #000000;
+$dark: #121212;
+$grey: #eeeeee;
+$light: #fafafa;
+$green: #00E676;
+$red: #d50000;
+$yellow: #ffee58;
+$light-blue: #4fc3f7;
+$blue: #2b88ef;
+$light-orange: #fdaf21;
+$orange: #fb7215;
+
+$theme-colors: (
+  "primary": $primary,
+  "secondary": $secondary,
+  "blue": $blue,
+  "orange": $orange,
+  "green": $green,
+  "red": $red,
+  "yellow": $yellow,
+  "grey": $grey,
+  "light-orange": $light-orange,
+  "light-blue": $light-blue,
+  "white": $white,
+  "black": $black,
+  "dark": $dark,
+  "light-grey": $light,
+);
+
+$enable-caret: false;
+$enable-responsive-font-sizes: true;
+
+// Shadow
+$shadow: 0 3px 6px rgba(0, 0, 0, 0.06), 0 3px 6px rgba(0, 0, 0, 0.09);
+$shadow-hover: 0 19px 38px rgba(0,0,0,0.07), 0 15px 12px rgba(0,0,0,0.1);
+$primary-shadow: 0 3px 6px rgba(245, 0, 89, 0.06), 0 3px 6px rgba(245, 0, 89, 0.09);
+$primary-shadow-hover: 0 19px 38px rgba(245, 0, 89, 0.07), 0 15px 12px rgba(245, 0, 89, 0.1);
+$shadow-disabled: 0;
+
+
+// Fonts
+$body-family: "Nunito", sans-serif;
+$body-size: 1.1rem;
+$body-line-height: 2rem;
+$body-letter-spacing: 0.01rem;
+$body-color: #7a7a7a;
+$heading-family: "Nunito", sans-serif;
+$heading-line-height: 1.2;
+$heading-letter-spacing: 0;
+$heading-color: #282828;
+$icon-family: "remixicon";
+$icon-size: 1.1rem;
+$normal: 400;
+$medium: 500;
+$bold: 600;
+$extra-bold: 800;
+
+// Borders
+$circle: 100%;
+$curved: 0.5rem;
+$btn-curved: 2rem;
+$border: 1px solid $grey;
