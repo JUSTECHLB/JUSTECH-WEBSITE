@@ -53,7 +53,7 @@
                   <a href="https://www.instagram.com/hadi._.hoteit/" class="btn btn-instagram btn-circle"></a>
                 </div>
                 <h6 class="member-name">Hadi Hoteit</h6>
-                <span class="member-title" style="white-space: nowrap;">Developer & Social Media Manager</span>
+                <span class="member-title" style="white-space: nowrap;">Developer & Social Media Consultant</span>
               </div>
             </div>
           </div>
