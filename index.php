@@ -1,0 +1,11 @@
+<?php include "header.php"?>
+<?php include "hero.php"?>
+<?php include "about.php"?>
+<?php include "whyus.php"?>
+<?php include "counts.php"?>
+<?php include "services.php"?>
+<?php include "portfolio.php"?>
+<?php include "team.php"?>
+<?php include "faq.php"?>
+<?php include "contact.php"?>
+<?php include "footer.php"?>
