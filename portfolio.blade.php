@@ -16,7 +16,7 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/Electro CI  LED SOLUTIONS.webp" class="img-fluid" alt="">
+              <img src="./assets/img/portfolio/Electro CI  LED SOLUTIONS.webp" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Electro-CI</h4>
                 <p>Web</p>
@@ -29,7 +29,7 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/Clover Mind Solutions.webp" class="img-fluid" alt="">
+              <img src="./assets/img/portfolio/Clover Mind Solutions.webp" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Clover Mind Solutions</h4>
                 <p>Web</p>
@@ -42,7 +42,7 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/bloom edu Guiding the Youth to the Future.webp" class="img-fluid" alt="">
+              <img src="./assets/img/portfolio/bloom edu Guiding the Youth to the Future.webp" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Bloom-EDU</h4>
                 <p>Web</p>
@@ -55,7 +55,7 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/EGLOW.webp" class="img-fluid" alt="">
+              <img src="./assets/img/portfolio/EGLOW.webp" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Eglow Watches</h4>
                 <p>Web</p>

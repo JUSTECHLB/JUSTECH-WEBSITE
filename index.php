@@ -7,5 +7,5 @@
 <?php include "portfolio.blade.php"?>
 <?php include "team.blade.php"?>
 <?php include "faq.blade.php"?>
-<?php include "contact.blade.php"?>
+<?php include "contact.blade.php"?> 
 <?php include "footer.blade.php"?>

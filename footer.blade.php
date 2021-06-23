@@ -6,7 +6,7 @@
     <div class="row">
 
       <div class="col-lg-3 col-md-6 footer-contact">
-        <img src="assets/img/JUSTECH_LOGO_UPDATED.png" width="80px" height="80px" alt="">
+        <img src="./assets/img/JUSTECH_LOGO_UPDATED.png" width="80px" height="80px" alt="">
         <p>
           Beirut, Lebanon <br><br>
           <strong>Phone:</strong> +961 78 890 304<br>
