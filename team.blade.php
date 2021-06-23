@@ -12,7 +12,7 @@
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
             <div class="member">
               <div class="member-img">
-                <img src="assets/img/team/Omar.webp" class="img-fluid" alt="">
+                <img src="./assets/img/team/Omar.webp" class="img-fluid" alt="">
                 <div class="social">
                   <a href="https://www.linkedin.com/in/omar-chouman-3805a1183/"><i class="bi bi-linkedin"></i></a>
                   <a href="https://www.facebook.com/omar.chouman.58/"><i class="bi bi-facebook"></i></a>
@@ -29,7 +29,7 @@
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
             <div class="member">
               <div class="member-img">
-                <img src="assets/img/team/Hadi.webp" class="img-fluid" alt="">
+                <img src="./assets/img/team/Hadi.webp" class="img-fluid" alt="">
                 <div class="social">
                   <a href="https://www.linkedin.com/in/hadi-hoteit-561807167/"><i class="bi bi-linkedin"></i></a>
                   <a href="https://www.facebook.com/hadi.hotiet.9"><i class="bi bi-facebook"></i></a>
@@ -46,7 +46,7 @@
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
             <div class="member">
               <div class="member-img">
-                <img src="assets/img/team/Ali.webp" class="img-fluid" alt="">
+                <img src="./assets/img/team/Ali.webp" class="img-fluid" alt="">
                 <div class="social">
                   <a href="https://www.linkedin.com/in/ali-shoura-218864108/"><i class="bi bi-linkedin"></i></a>
                   <a href="https://www.facebook.com/ali.shoura.5"><i class="bi bi-facebook"></i></a>
@@ -63,7 +63,7 @@
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
             <div class="member">
               <div class="member-img">
-                <img src="assets/img/team/team-4.jpg" class="img-fluid" alt="">
+                <img src="./assets/img/team/team-4.jpg" class="img-fluid" alt="">
                 <div class="social">
                   <a href=""><i class="bi bi-linkedin"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>

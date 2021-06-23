@@ -1,3 +1,4 @@
+<?php include "config.php"?>
 <?php include "header.blade.php"?>
 <?php include "hero.blade.php"?>
 <?php include "about.blade.php"?>
